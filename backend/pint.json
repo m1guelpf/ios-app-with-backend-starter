@@ -1,0 +1,27 @@
+{
+    "preset": "laravel",
+    "rules": {
+        "no_unused_imports": true,
+        "no_extra_blank_lines": {
+            "tokens": [
+                "attribute",
+                "break",
+                "case",
+                "continue",
+                "curly_brace_block",
+                "default",
+                "extra",
+                "parenthesis_brace_block",
+                "return",
+                "square_brace_block",
+                "switch",
+                "throw",
+                "use",
+                "use_trait"
+            ]
+        },
+        "ordered_imports": {
+            "sort_algorithm": "length"
+        }
+    }
+}

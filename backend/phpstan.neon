@@ -1,0 +1,14 @@
+includes:
+    - vendor/larastan/larastan/extension.neon
+    - vendor/nesbot/carbon/extension.neon
+
+parameters:
+    level: 7
+    checkModelAppends: true
+    checkModelProperties: true
+    checkOctaneCompatibility: true
+    noEnvCallsOutsideOfConfig: true
+    paths:
+        - app/
+    ignoreErrors:
+        - '#Method App\\Http\\Controllers\\\w+::\w+\(\) has no return type specified\.#'
